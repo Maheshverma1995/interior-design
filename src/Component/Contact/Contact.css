@@ -1,0 +1,30 @@
+*
+{
+    margin: auto 0;
+    padding: 0;
+}
+/* section1 css here */
+#Text
+{
+ width: 100%;
+ padding: 70px 0;
+  text-align: center;
+}
+.Image1 img
+{
+    width: 100%;
+}
+/* section2 css here */
+#contact-main
+{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    
+    background-color: rgb(22, 20, 20);
+}
+#contact-main-form
+{
+    width: 100%;
+    height: auto;
+}
