@@ -80,19 +80,19 @@ export const Contact = () => {
             <div className='col-md-9'>
              <ul>
               <li>
-                <a href=""><i>1</i></a>
+                <link rel="stylesheet" to="" />
               </li>
               <li>
-                <a href=""><i>1</i></a>
+                <link rel="stylesheet" to="" />
               </li>
               <li>
-                <a href=""><i>1</i></a>
+                <link rel="stylesheet" to="" />
               </li>
               <li>
-                <a href=""><i>1</i></a>
+                <link rel="stylesheet" to="" />
               </li>
               <li>
-                <a href=""><i>1</i></a>
+                <link rel="stylesheet" to="" />
               </li>
              </ul>
             </div>
