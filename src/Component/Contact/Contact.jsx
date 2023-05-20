@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import { Google_map } from '../../Google-map/Google_map'
 
 export const Contact = () => {
   return (
@@ -36,33 +37,33 @@ export const Contact = () => {
             </div>
             <div class="col-md-8" >
               <form action="">
-              <div className='contact-main-form' id='contact-main-form'>
-                <div className='row'>
-                <div className='col-sm-6'>
-                  <label htmlFor="">Enter your name</label>
-                  <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                <div className='contact-main-form' id='contact-main-form'>
+                  <div className='row'id='form-row'>
+                    <div className='col-sm-6'>
+                      <label htmlFor="">Enter your name</label>
+                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                    </div>
+                    <div className='col-sm-6'>
+                      <label htmlFor="">Enter your name</label>
+                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                    </div>
+                    <div className='col-sm-6'>
+                      <label htmlFor="">Enter your name</label>
+                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                    </div>
+                    <div className='col-sm-6'>
+                      <label htmlFor="">Enter your name</label>
+                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                    </div>
+                    <div className='col-sm-8'>
+                      <label htmlFor="">Enter your name</label>
+                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                    </div>
+                    <div className='col-sm-2'>
+                      <button>submit</button>
+                    </div>
+                  </div>
                 </div>
-                <div className='col-sm-6'>
-                  <label htmlFor="">Enter your name</label>
-                  <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
-                </div>
-                <div className='col-sm-6'>
-                  <label htmlFor="">Enter your name</label>
-                  <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
-                </div>
-                <div className='col-sm-6'>
-                  <label htmlFor="">Enter your name</label>
-                  <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
-                </div>
-                <div className='col-sm-8'>
-                  <label htmlFor="">Enter your name</label>
-                  <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
-                </div>
-                <div className='col-sm-2'>
-                  <button>submit</button>
-                </div>
-                </div>
-              </div>
               </form>
             </div>
           </div>
@@ -72,24 +73,28 @@ export const Contact = () => {
       {/* Start to Third section  */}
       <section>
         <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-md-3'>Subscribe :</div>
+          <div className='row'id='section-row-three'>
+            <div className='col-md-3'>
+              <span>Subscribe :</span>
+            </div>
             <div className='col-md-9'>
-              <span>
-                <i>1</i>
-              </span>
-              <span>
-                <i>2</i>
-              </span>
-              <span>
-                <i>3</i>
-              </span>
-              <span>
-                <i>4</i>
-              </span>
-              <span>
-                <i>5</i>
-              </span>
+             <ul>
+              <li>
+                <a href=""><i>1</i></a>
+              </li>
+              <li>
+                <a href=""><i>1</i></a>
+              </li>
+              <li>
+                <a href=""><i>1</i></a>
+              </li>
+              <li>
+                <a href=""><i>1</i></a>
+              </li>
+              <li>
+                <a href=""><i>1</i></a>
+              </li>
+             </ul>
             </div>
 
           </div>
@@ -104,17 +109,17 @@ export const Contact = () => {
             <div className='col'>
               <h1>Find us on map</h1>
             </div>
-            <div className='col'>
-            {/* <iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56033.922022744!2d77.34063106396309!3d28.626161593737308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f8db0936a3%3A0x45b6d2df27348a89!2sDucat%20IT%20Training%20School%20Noida%20Sector-63!5e0!3m2!1sen!2sin!4v1674290342981!5m2!1sen!2sin"
-							 allowfullscreen="" loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-            </div>
+          </div></div>
+        <div className='container-fluid'>
+          <div className='row'>
+          <div className='col'>
+            <Google_map></Google_map>
           </div>
         </div>
-      </section>
+    </div>
+      </section >
 
-      </div>
+      </div >
   )
 }
 
