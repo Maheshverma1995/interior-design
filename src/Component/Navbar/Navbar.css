@@ -25,26 +25,9 @@ ul li a {
     text-decoration: none;
 }
 
-
-/* Burger */
-
-StyledBurger {
-    width: 2rem;
-    height: 2rem;
-    position: fixed;
-    top: 15px;
-    right: 20px;
-}
-
-div {
-    width: 2rem;
-    height: 0.25rem;
-    background-color: #030336;
-}
-
 @media (max-width: 768px) {
     ul {
-        /* display: none; */
+        display: none;
         flex-flow: column nowrap;
         background-color: #030336;
         position: fixed;
@@ -54,7 +37,7 @@ div {
         width: 300px;
         padding-top: 3.5rem;
     }
-    li a {
+    li {
         color: white;
     }
 }
