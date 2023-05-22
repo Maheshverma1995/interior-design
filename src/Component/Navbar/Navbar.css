@@ -1,4 +1,4 @@
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -40,4 +40,63 @@ ul li a {
     li {
         color: white;
     }
+} */
+
+
+/* Navbar.css */
+
+.navbar {
+    background: #333;
+}
+
+.menu-button {
+    display: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Styling the hamburger and cross icons */
+
+.hamburger-icon,
+.cross-icon {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-icon {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.open .cross-icon {
+    transform: rotate(45deg);
+}
+
+.open .cross-icon:before {
+    transform: rotate(-90deg) translate(-7px, 0px);
+}
+
+.open .cross-icon:after {
+    opacity: 0;
 }
