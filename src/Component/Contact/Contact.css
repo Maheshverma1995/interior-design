@@ -1,0 +1,76 @@
+*
+{
+    margin: auto 0;
+    padding: 0;
+}
+/* section1 css here */
+#Text
+{
+ width: 100%;
+ padding: 70px 0;
+  text-align: center;
+}
+.Image1 img
+{
+    width: 100%;
+}
+/* section2 css here */
+#contact-main
+{
+    width: 100%;
+    height: 350px;
+    color: white;
+    
+    background-color: rgb(22, 20, 20);
+}
+#contact-main h1
+{
+    font-size: large;
+}
+#contact-main p
+{
+    font-size: medium;
+}
+#contact-main-form
+{
+    width: 100%;
+    height: 350px;
+}
+#form-row div
+{
+    margin: auto;
+}
+#form-row div label
+{
+    margin: auto;
+}
+#form-row div input
+{
+    margin: auto;
+}
+/* section3 css here */
+#section-row-three
+{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+#section-row-three span
+{
+    background-color: aliceblue;
+}
+#section-row-three ul
+{
+    display: flex;
+}
+#section-row-three ul li{
+    text-align: center;
+}
+#section-row-three ul li a
+{
+    text-decoration: none;
+}
+#section-row-three ul li a i
+{
+    width: 50px;
+}
