@@ -26,9 +26,9 @@ export const Contact = () => {
       </section>
       {/* End to first section  */}
       {/* Start to Sec section  */}
-      <section>
+      <section id='section2'>
         <div class="container-fluid">
-          <div class="row">
+          <div class="row" >
             <div class="col-md-4">
               <div id='contact-main'>
                 <h1>Contact us</h1>

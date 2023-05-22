@@ -15,6 +15,11 @@
     width: 100%;
 }
 /* section2 css here */
+#section2
+{
+    width: 80%;
+    margin: auto;
+}
 #contact-main
 {
     width: 100%;
