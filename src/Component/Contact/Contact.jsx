@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineArrowRight } from "react-icons/ai";
 import './Contact.css'
 import { Google_map } from '../../Google-map/Google_map'
 
@@ -35,32 +36,32 @@ export const Contact = () => {
 
               </div>
             </div>
-            <div class="col-md-8" >
+            <div class="col-md-8 "id='form' >
               <form action="">
                 <div className='contact-main-form' id='contact-main-form'>
                   <div className='row'id='form-row'>
-                    <div className='col-sm-6'>
+                    <div className=' col-sm-6' >
                       <label htmlFor="">Enter your name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
-                    <div className='col-sm-6'>
+                    <div className=' col-sm-6' >
                       <label htmlFor="">Enter your name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
-                    <div className='col-sm-6'>
+                    <div className=' col-sm-6' >
                       <label htmlFor="">Enter your name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
-                    <div className='col-sm-6'>
+                    <div className=' col-sm-6' >
                       <label htmlFor="">Enter your name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
-                    <div className='col-sm-8'>
+                    <div className=' col-sm-8' >
                       <label htmlFor="">Enter your name</label>
-                      <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
+                      <textarea name="" id="" cols="10" rows="10"></textarea>
                     </div>
-                    <div className='col-sm-2'>
-                      <button>submit</button>
+                    <div className=' col-sm-2' id='form-submit' >
+                    <button type='submit'><AiOutlineArrowRight/></button>
                     </div>
                   </div>
                 </div>
