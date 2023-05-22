@@ -1,24 +1,25 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import './Contact.css'
+import './/Contact.css'
 import { Google_map } from '../../Google-map/Google_map'
 
 export const Contact = () => {
   return (
     <div> {/* Start to first section  */}
-      <section>
+      <section id='section1'>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 "id='text-row'>
               <div id='Text'>
                 <h1>Contact us!</h1>
-                <p>Any questions or suggestions?</p>
-                <p>Write us a message and we will contact you!</p>
+                <p>Any questions or suggestions?<br />
+                Write us a message and we will contact you!</p>
               </div>
             </div>
             <div class="col-md-6">
               <div className='Image1'>
-                <img src="./image/img.jpg" alt="no" />
+                <img src="./image/contact.jpg" alt="no" />
               </div>
             </div>
           </div>
@@ -27,19 +28,19 @@ export const Contact = () => {
       {/* End to first section  */}
       {/* Start to Sec section  */}
       <section id='section2'>
-        <div class="container-fluid">
-          <div class="row" >
-            <div class="col-md-4">
+        <div class="container-fluid  "id='section2-row'>
+          <div class="row"  >
+            <div class="col-md-4" id='section2-col1'>
               <div id='contact-main'>
                 <h1>Contact us</h1>
                 <p>106, First floor, A -21 Sector 67 Noida - 201301</p>
 
               </div>
             </div>
-            <div class="col-md-8 "id='form' >
+            <div class="col-md-8 " id='form' >
               <form action="">
                 <div className='contact-main-form' id='contact-main-form'>
-                  <div className='row'id='form-row'>
+                  <div className='row' id='form-row'>
                     <div className=' col-sm-6' >
                       <label htmlFor="">Enter your name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
@@ -61,7 +62,7 @@ export const Contact = () => {
                       <textarea name="" id="" cols="10" rows="10"></textarea>
                     </div>
                     <div className=' col-sm-2' id='form-submit' >
-                    <button type='submit'><AiOutlineArrowRight/></button>
+                      <button type='submit'><AiOutlineArrowRight /></button>
                     </div>
                   </div>
                 </div>
@@ -74,28 +75,28 @@ export const Contact = () => {
       {/* Start to Third section  */}
       <section>
         <div className='container-fluid'>
-          <div className='row'id='section-row-three'>
+          <div className='row' id='section-row-three'>
             <div className='col-md-3'>
               <span>Subscribe :</span>
             </div>
             <div className='col-md-9'>
-             <ul>
-              <li>
-                <link rel="stylesheet" to="" />
-              </li>
-              <li>
-                <link rel="stylesheet" to="" />
-              </li>
-              <li>
-                <link rel="stylesheet" to="" />
-              </li>
-              <li>
-                <link rel="stylesheet" to="" />
-              </li>
-              <li>
-                <link rel="stylesheet" to="" />
-              </li>
-             </ul>
+              <ul>
+                <li>
+                  <link rel="stylesheet" to="" />
+                </li>
+                <li>
+                  <link rel="stylesheet" to="" />
+                </li>
+                <li>
+                  <link rel="stylesheet" to="" />
+                </li>
+                <li>
+                  <link rel="stylesheet" to="" />
+                </li>
+                <li>
+                  <link rel="stylesheet" to="" />
+                </li>
+              </ul>
             </div>
 
           </div>
@@ -113,14 +114,16 @@ export const Contact = () => {
           </div></div>
         <div className='container-fluid'>
           <div className='row'>
-          <div className='col'>
-            <Google_map></Google_map>
+            <div className='col'>
+              <Google_map></Google_map>
+            </div>
           </div>
         </div>
-    </div>
       </section >
 
-      </div >
+    </div >
+
   )
+
 }
 
