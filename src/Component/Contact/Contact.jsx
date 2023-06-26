@@ -2,7 +2,8 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import './/Contact.css'
-import { Google_map } from '../../Google-map/Google_map'
+// import { Google_map } from '../Google-map/Google_map'
+import { Footer } from '../Footer/Footer';
 
 export const Contact = () => {
   return (
@@ -42,23 +43,23 @@ export const Contact = () => {
                 <div className='contact-main-form' id='contact-main-form'>
                   <div className='row' id='form-row'>
                     <div className=' col-sm-6' >
-                      <label htmlFor="">Enter your name</label>
+                      <label >Name</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
                     <div className=' col-sm-6' >
-                      <label htmlFor="">Enter your name</label>
+                      <label >What city are you from?</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
                     <div className=' col-sm-6' >
-                      <label htmlFor="">Enter your name</label>
+                      <label >E-mail</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
                     <div className=' col-sm-6' >
-                      <label htmlFor="">Enter your name</label>
+                      <label >Phone Number</label>
                       <input type="text" required maxLength={40} minLength={3} placeholder='Enter your Name' />
                     </div>
                     <div className=' col-sm-8' >
-                      <label htmlFor="">Enter your name</label>
+                      <label >Message </label>
                       <textarea name="" id="" cols="10" rows="10"></textarea>
                     </div>
                     <div className=' col-sm-2' id='form-submit' >
@@ -115,12 +116,20 @@ export const Contact = () => {
         <div className='container-fluid'>
           <div className='row'>
             <div className='col'>
-              <Google_map></Google_map>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0076779223896!2d77.37483897469342!3d28.6295319842184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f8db0936a3%3A0x45b6d2df27348a89!2sDucat%20IT%20Training%20School%20Noida%20Sector-63!5e0!3m2!1sen!2sin!4v1687604683472!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
       </section >
-
+      <footer>
+      <div className="container-fluid">
+          <div className="row">
+            <div className='col'>
+                <Footer/>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div >
 
   )
