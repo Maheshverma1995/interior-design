@@ -13,18 +13,21 @@ export const Portfolio = () => {
           <div className="col">
             <h1>PORTFOLIO.</h1>
             <div className="col">
-            <img src="./image/img8.jpg" alt="no" />
+            <img src="./image/img11.jpg" alt="no" />
             </div>
           </div>
         </div>
         {/* Hear is  section-gallary*/}
-        <div class="row gallary">
-          <div class="col-sm-6  col-md-4 col-lg-3 gallary-col"><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
-          <div class="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
-          <div class="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
-          <div class="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
-          <div class="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
-          <div class="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/Asset-1@3x-3-900x771.webp" alt="" /></div>
+        <div className="row gallary">
+          <div className="col-sm-6  col-md-4 col-lg-3 gallary-col"><img src="./image/22.webp" alt="" /></div>
+          <div className="col-sm-6  col-md-4 col-lg-3 gallary-col"><img src="./image/23.webp" alt="" /></div>
+          <div className="col-sm-6  col-md-4 col-lg-3 gallary-col"><img src="./image/24.webp" alt="" /></div>
+          <div className="col-sm-6  col-md-4 col-lg-3 gallary-col"><img src="./image/25.webp" alt="" /></div>
+          <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/26.webp" alt="" /></div>
+          <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/27.webp" alt="" /></div>
+          <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/28.webp" alt="" /></div>
+          <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/29.webp" alt="" /></div>
+          <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/30.webp" alt="" /></div>
         </div>
         <footer>
           <div className="container-fluid">

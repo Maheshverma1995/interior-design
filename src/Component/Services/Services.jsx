@@ -16,7 +16,7 @@ export const Services = () => {
             <div className="col ">
               <h1>SERVICES.</h1>
               
-              <div className="col"><img src="./image/img8.jpg" alt="no" /></div>
+              <div className="col"><img src="./image/53.webp" alt="no" /></div>
             </div>
 
           </div>
@@ -31,7 +31,7 @@ export const Services = () => {
 
 
 
-            <div className='col-md-3' id='section3-row-col1'>
+            <div className='col-md-3 ' id='section3-row-col1'>
               <div>
                 <img src="./image/Interior-Design.webp" alt="" />
               </div>
@@ -40,7 +40,7 @@ export const Services = () => {
                 <p>Book an appointment and we will plan a meeting for you with the designer</p>
               </div>
             </div>
-            <div className='col-md-3' id='section3-row-col2'>
+            <div className='col-md-3 ' id='section3-row-col2'>
               <div>
                 <img src="./image/interior2nd-1.webp" alt="" />
               </div>
@@ -49,7 +49,7 @@ export const Services = () => {
                 <p>Share your floor plan to discuss the budget, design, color & more.</p>
               </div>
             </div>
-            <div className='col-md-3' id='section3-row-col3'>
+            <div className='col-md-3 ' id='section3-row-col3'>
               <div>
                 <img src="./image/3rd-1.webp" alt="" />
               </div>
@@ -58,7 +58,7 @@ export const Services = () => {
                 <p>After reviewing your requirement we will give you a tentative budget.</p>
               </div>
             </div>
-            <div className='col-md-3' id='section3-row-col4'>
+            <div className='col-md-3 ' id='section3-row-col4'>
               <div>
                 <img src="./image/interior-1st.webp" alt="" />
               </div>
@@ -77,10 +77,10 @@ export const Services = () => {
         <div className="container p-3">
           <div className="row">
             <h1>How we work</h1>
-            <div className="row">
+            <div className="row m-3">
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/23.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>
@@ -90,7 +90,7 @@ export const Services = () => {
               </div>
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/24.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>
@@ -100,7 +100,7 @@ export const Services = () => {
               </div>
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/25.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>
@@ -112,7 +112,7 @@ export const Services = () => {
             <div className="row">
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/26.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>
@@ -122,7 +122,7 @@ export const Services = () => {
               </div>
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/27.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>
@@ -132,7 +132,7 @@ export const Services = () => {
               </div>
               <div className="col-md-4">
                 <div class="card">
-                  <img src="./image/Interior-Design.webp" class="card-img-top" alt="..." />
+                  <img src="./image/28.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">Meet us to share your requirements and allow us to know you better.</p>

@@ -75,7 +75,7 @@ export const About = () => {
         <div className="container mt-5 mb-5 p-3">
           <div className="row">
             <div className="col-md-6" id='section-col1-image'>
-              <img src="./image/img8.jpg" alt="no" />
+              <img src="./image/img6.jpg" alt="no" />
             </div>
             <div className="col-md-6" id='section-col2-paragrap'>
               <h4 className='d-flex'>Rohit Chaudhary
@@ -158,7 +158,7 @@ export const About = () => {
           <div className="row">
             <div className="col-md-6">
               <div class="card" >
-                <img src="./image/img8.jpg" class="card-img-top" alt="..." />
+                <img src="./image/img7.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Our In-House Carpentry Unit</h5>
                   <p class="card-text">We are well-equipped to design all the loose furniture here!</p>
@@ -168,7 +168,7 @@ export const About = () => {
             </div>
             <div className="col-md-6">
               <div class="card" >
-                <img src="./image/img8.jpg" class="card-img-top" alt="..." />
+                <img src="./image/img9.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Our In-House Modular Furniture Unit</h5>
                   <p class="card-text">We have the latest machinery to design fixed furniture here!</p>

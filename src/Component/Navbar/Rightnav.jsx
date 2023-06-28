@@ -12,6 +12,7 @@ export const Rightnav = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <img src="./image/logo.png.jpg" width={100} alt="" />
           <ul className="navbar-nav navbar">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="">Home</Link>
@@ -59,6 +60,9 @@ export const Rightnav = () => {
           </ul>
         </div>
       </div>
+      
     </nav>
+    
   )
+
 };

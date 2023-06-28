@@ -5,9 +5,6 @@ import './Home.css'
 import { Link } from 'react-router-dom';
 
 
-// import { Carousel } from 'react-responsive-carousel';
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 export const Home = () => {
   return (
     <div>
@@ -112,7 +109,7 @@ export const Home = () => {
                 everything. It's that simple really</p>
             </div>
             <div className="col-md-6" id='section-col1-image'>
-              <img src="./image/img8.jpg" alt="no" />
+              <img src="./image/img1.jpg" alt="no" />
             </div>
           </div>
         </div>
@@ -123,21 +120,21 @@ export const Home = () => {
           <div className="row">
             <h1>Our Blogs</h1>
             <div className="col-md-4 p-5 " id='section5-col1-image'>
-              <img src="./image/img8.jpg" alt="no" />
+              <img src="./image/img2.jpg" alt="no" />
               <span>Blog, Interior design</span>
               <h5>6 Inspiring Interior Design Trends 2023</h5>
               <p>They say Change is the only thing constant. This is especially true in the world…</p>
               <Link to="">View more</Link>
             </div>
             <div className="col-md-4 p-5 " id='section5-col1-image'>
-              <img src="./image/img8.jpg" alt="no" />
+              <img src="./image/img4.jpg" alt="no" />
               <span>Blog, Interior design</span>
               <h5>6 Inspiring Interior Design Trends 2023</h5>
               <p>They say Change is the only thing constant. This is especially true in the world…</p>
               <Link to="">View more</Link>
             </div>
             <div className="col-md-4 p-5" id='section5-col1-image'>
-              <img src="./image/img8.jpg" alt="no" />
+              <img src="./image/img3.jpg" alt="no" />
               <span>Blog, Interior design</span>
               <h5>6 Inspiring Interior Design Trends 2023</h5>
               <p>They say Change is the only thing constant. This is especially true in the world…</p>
