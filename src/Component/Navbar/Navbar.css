@@ -1,0 +1,10 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-image
+{
+    border-radius: 20% 0 20% 0;
+}

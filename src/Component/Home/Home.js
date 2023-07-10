@@ -13,8 +13,11 @@ export const Home = () => {
       <section>
         <div className="container">
           <div className="row">
+
             <div className="col-md-6" id='video1'>
+              
               <video id='video2' controls autoPlay muted src="image/video.mp4.mp4"></video>
+
             </div>
           </div>
         </div>
@@ -140,20 +143,20 @@ export const Home = () => {
               <p>They say Change is the only thing constant. This is especially true in the world…</p>
               <Link to="">View more</Link>
             </div>
-            
+
           </div>
         </div>
       </section>
       <footer>
-      <div className="container-fluid">
+        <div className="container-fluid">
           <div className="row">
             <div className='col'>
-                <Footer/>
+              <Footer />
             </div>
           </div>
         </div>
       </footer>
     </div >
-    
+
   )
 }

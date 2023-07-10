@@ -54,7 +54,7 @@ export const Footer = () => {
           </div>
 
           <div className="d-flex justify-content-between py-4 my-4 border-top text-white">
-            <p>© 2021 Company, Inc. All rights reserved.</p>
+            <p> © 2023 Mahesh, Inc. All rights reserved.</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3"><
                 Link className="link-light" to="#">

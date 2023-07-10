@@ -10,8 +10,8 @@ export const Contact = () => {
   return (
     <div> {/* Start to first section  */}
       <section id='section1'>
-        <div class="container-fluid">
-          <div class="row">
+        <div class="container-fluid ">
+          <div class="row mt-5">
             <div class="col-md-6 "id='text-row'>
               <div id='Text'>
                 <h1>Contact us!</h1>
@@ -117,7 +117,7 @@ export const Contact = () => {
         <div className='container-fluid'>
           <div className='row'>
             <div className='col'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0076779223896!2d77.37483897469342!3d28.6295319842184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f8db0936a3%3A0x45b6d2df27348a89!2sDucat%20IT%20Training%20School%20Noida%20Sector-63!5e0!3m2!1sen!2sin!4v1687604683472!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0076779223896!2d77.37483897469342!3d28.6295319842184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f8db0936a3%3A0x45b6d2df27348a89!2sDucat%20IT%20Training%20School%20Noida%20Sector-63!5e0!3m2!1sen!2sin!4v1687604683472!5m2!1sen!2sin"  width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Example iframe"></iframe>
             </div>
           </div>
         </div>
