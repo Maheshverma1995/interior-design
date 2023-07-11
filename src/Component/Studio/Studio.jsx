@@ -1,6 +1,5 @@
 import React from 'react'
 import './Studio.css'
-import { Footer } from '../Footer/Footer'
 
 export const Studio = () => {
   return (
@@ -42,16 +41,7 @@ export const Studio = () => {
             <div className="col-sm-6 mt-4  col-md-4 col-lg-4 section-2-col"><img src="./image/31.webp" alt="" /></div>
           </div>
         </div>
-      </div>
-      <footer>
-        <div className="container-fluid">
-          <div className="row">
-            <div className='col'>
-              <Footer />
-            </div>
-          </div>
-        </div>
-      </footer>
+      </div>  
     </div>
   )
 }

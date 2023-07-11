@@ -1,5 +1,4 @@
 import React from 'react'
-import { Footer } from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 import './Blog.css'
 export const Blog = () => {
@@ -66,15 +65,7 @@ export const Blog = () => {
           </div>
         </div>
       </section>
-      <footer>
-        <div className="container-fluid">
-          <div className="row">
-            <div className='col'>
-              <Footer />
-            </div>
-          </div>
-        </div>
-      </footer>
+    
     </div>
   )
 }

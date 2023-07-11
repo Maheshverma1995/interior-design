@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import './/Contact.css'
 // import { Google_map } from '../Google-map/Google_map'
-import { Footer } from '../Footer/Footer';
 
 export const Contact = () => {
   return (
@@ -122,15 +121,7 @@ export const Contact = () => {
           </div>
         </div>
       </section >
-      <footer>
-      <div className="container-fluid">
-          <div className="row">
-            <div className='col'>
-                <Footer/>
-            </div>
-          </div>
-        </div>
-      </footer>
+     
     </div >
 
   )

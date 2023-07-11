@@ -14,7 +14,7 @@ export const Google_map = () => {
   return (
     <div style={{ height: '100vh', width: '100%' }}>
     <GoogleMapReact
-      bootstrapURLKeys={{ key: "" }}
+      bootstrapURLKeys={{ key: " " }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >

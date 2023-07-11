@@ -1,5 +1,4 @@
 import React from 'react'
-import { Footer } from '../Footer/Footer'
 import './Portfolio.css'
 // import { Link } from 'react-router-dom'
 
@@ -29,15 +28,7 @@ export const Portfolio = () => {
           <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/29.webp" alt="" /></div>
           <div className="col-sm-6 gallary-col col-md-4 col-lg-3 "><img src="./image/30.webp" alt="" /></div>
         </div>
-        <footer>
-          <div className="container-fluid">
-            <div className="row">
-              <div className='col'>
-                <Footer />
-              </div>
-            </div>
-          </div>
-        </footer>
+        
       </div>
     </div>
   )

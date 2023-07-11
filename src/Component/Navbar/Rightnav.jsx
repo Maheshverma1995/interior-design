@@ -14,7 +14,7 @@ export const Rightnav = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <img className='logo-image' src="./image/logo.png.jpg" width={70} alt="" />
           <ul className="navbar-nav navbar">
-            <li className="nav-item">
+            <li className="nav-item m-auto">
               <Link className="nav-link active" aria-current="page" to="">Home</Link>
             </li>
             <li className="nav-item">

@@ -1,26 +1,25 @@
-*
-{
+* {
     margin: 0 auto;
     padding: 0;
 }
-.section-1 
-{
+
+.section-1 {
     width: 100%;
 }
-.section-1  h1
-{
+
+.section-1 h1 {
     text-align: center;
     position: relative;
 }
-.section-1 p
-{
+
+.section-1 p {
     text-align: center;
     width: 70%;
     margin-top: 150px;
     margin-bottom: 100px;
 }
-.section-1 h1::before
-{
+
+.section-1 h1::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -30,8 +29,8 @@
     height: 2px;
     transform: translateY(-50%);
 }
-.section-1 h1::after
-{
+
+.section-1 h1::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -41,24 +40,19 @@
     height: 2px;
     transform: translateY(-50%);
 }
-.section-2-col
-{
+
+.section-2-col {
     margin-top: 30px;
-    
-    color: black ;
+    color: black;
     cursor: pointer;
 }
-.section-2
-{
+
+.section-2 {
     justify-content: center;
-    
 }
-.section-2  div img{
+
+.section-2 div img {
     width: 100%;
     height: 400px;
-    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
-    12px 0 15px -4px rgba(31, 73, 125, 0.8),
-    -12px 0 15px -4px rgba(31, 73, 125, 0.8)
-    
-    
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8)
 }
