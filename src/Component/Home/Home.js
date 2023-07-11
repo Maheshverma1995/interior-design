@@ -14,7 +14,7 @@ export const Home = () => {
         <div className="container">
           <div className="row">
 
-            <div className="col-md-6" id='video1'>
+            <div className="col-md-6" id='video1' >
               
               <video id='video2' controls autoPlay muted src="image/video.mp4.mp4"></video>
 
