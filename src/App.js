@@ -10,6 +10,7 @@ import { Blog } from './Component/Blog/Blog';
 import { Contact } from './Component/Contact/Contact';
 import { Studio } from './Component/Studio/Studio';
 import { Rightnav } from './Component/Navbar/Rightnav';
+import { Footer } from './Component/Footer/Footer';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 <Route path="/blog" element={<Blog/>}/>
 <Route path="/contact" element={<Contact/>}/>
   </Routes>
-
+  <Footer />
   </Router>    
   );
 }

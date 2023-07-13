@@ -1,50 +1,46 @@
-*
-{
+* {
     margin: auto 0;
     padding: 0;
+}
 
-}
-.about
-{
+.about {
     text-align: center;
-    
 }
-.about img
-{
+
+.about img {
     margin-top: 100px;
 }
-.section1
-{
+
+.section1 {
     background-color: rgb(189, 183, 183);
     margin-top: 50px;
     height: 600px;
 }
 
-.section2 p
-{
+.section2 p {
     margin: auto;
     margin-top: 20px;
     width: 70%;
     text-align: center;
 }
-.section2 h1{
+
+.section2 h1 {
     margin-top: 170px;
     text-align: center;
 }
-.section-3
-{
-    
+
+.section-3 {
     height: 300px;
     background-color: #c2b04a;
 }
-.section-3 ul{
+
+.section-3 ul {
     display: flex;
     list-style: none;
     position: relative;
-   
 }
-.section-3 ul li div::before
-{
+
+.section-3 ul li div::before {
     content: "";
     position: absolute;
     top: 0%;
@@ -54,40 +50,39 @@
     background-color: #c9d9d5;
     transform: translateY(0%);
 }
-.section-3 ul span
-{
+
+.section-3 ul span {
     color: #0a0a0a;
     font-size: 28px;
     line-height: 32px;
     letter-spacing: .9px;
-
 }
-.section-3 ul li div{
+
+.section-3 ul li div {
     width: 200px;
     padding: 6px;
     height: 190px;
 }
- 
-.section-3 ul h2
-{
+
+.section-3 ul h2 {
     color: #000;
     font-size: 50px;
 }
-.row-col-1{
-    
+
+.row-col-1 {
     height: 300px;
     display: flex;
     align-items: center;
     text-align: center;
 }
-.section1 h1
-{
+
+.section1 h1 {
     color: black;
     text-align: center;
     margin-top: 50px;
 }
-.h1
-{
+
+.h1 {
     color: #070c1f;
     font-size: 40px;
     line-height: 1.3;
@@ -95,11 +90,9 @@
     position: relative;
     padding-left: 86px;
     margin-bottom: 61px;
-    
-    
 }
-.h1::before
-{
+
+.h1::before {
     content: "";
     position: absolute;
     top: 50%;

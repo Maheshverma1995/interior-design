@@ -1,7 +1,6 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './About.css'
-import { Footer } from '../Footer/Footer';
 
 export const About = () => {
   return (
@@ -162,7 +161,6 @@ export const About = () => {
                 <div class="card-body">
                   <h5 class="card-title">Our In-House Carpentry Unit</h5>
                   <p class="card-text">We are well-equipped to design all the loose furniture here!</p>
-
                 </div>
               </div>
             </div>
@@ -179,15 +177,7 @@ export const About = () => {
           </div>
         </div>
       </section>
-      <footer>
-        <div className="container-fluid">
-          <div className="row">
-            <div className='col'>
-              <Footer />
-            </div>
-          </div>
-        </div>
-      </footer>
+
     </div>
   )
 }
