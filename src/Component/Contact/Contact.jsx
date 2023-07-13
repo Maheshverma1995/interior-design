@@ -3,16 +3,15 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import './/Contact.css'
-// import { Google_map } from '../Google-map/Google_map'
 
 export const Contact = () => {
   return (
     <div> {/* Start to first section  */}
       <section id='section1'>
         <div class="container-fluid ">
-          <div class="row mt-5">
-            <div class="col-md-6 "id='text-row'>
-              <div id='Text'>
+          <div class="row  ">
+            <div class="col-md-6 col-sm-12 ">
+              <div>
                 <h1>Contact us!</h1>
                 <p>Any questions or suggestions?<br />
                 Write us a message and we will contact you!</p>
@@ -75,7 +74,7 @@ export const Contact = () => {
       {/* End to sec section  */}
       {/* Start to Third section  */}
       <section>
-        <div className='container-fluid'>
+        
           <div className='row' id='section-row-three'>
             <div className='col-md-3'>
               <span>Subscribe :</span>
@@ -102,7 +101,7 @@ export const Contact = () => {
 
           </div>
 
-        </div>
+        
       </section>
       {/* End to sec section  */}
       {/* Start to Four section  */}

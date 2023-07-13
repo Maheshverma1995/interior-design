@@ -8,10 +8,10 @@ export const About = () => {
       <section className='section1'>
         <div className='container  '>
           <div className='row'>
-          <h1>ABOUT US.</h1>
-            <div className='col about'>
-              
-              <img src="image/2-1-900x551.jpg" alt="" />
+            <h1>ABOUT US.</h1>
+            <div className='col-md-4 col-lg-6 col-sm-12 section1-col-1'>
+
+              <img className='img-fluid' src="image/2-1-900x551.jpg" alt="" />
             </div>
 
           </div>
@@ -46,25 +46,27 @@ export const About = () => {
       </section>
       {/* Hear is  section3 */}
       <section>
-        <div className="container-fluid section-3 mt-5 mb-5 p-3">
+        <div className="container-fluid section-3 ">
           <div className="row">
-            <div className="col-md-6 row-col-1">
+            <div className="col-md-4 col-lg-6 col-sm-12">
               <h1 className='h1'><span>Through the Years</span></h1>
             </div>
-            <div className="col-md-6 row-col-1">
-              <ul>
-                <li>
-                  <div><h2>10</h2>
-                  <span>Awards gained</span></div>
-                </li>
-                <li><div><h2>10</h2>
-                  <span>Awards gained</span></div>
-                
-                </li>
-                <li><div><h2>10</h2>
-                  <span>Awards gained</span></div>
-                </li>
-              </ul>
+            <div className="col-md-4 col-lg-6 col-sm-12">
+                  <div class="col-sm">
+                    <li><div><h2>10</h2>
+                      <span>Awards gained</span></div>
+                    </li>
+                  </div>
+                  <div class="col-sm">
+                    <li><div><h2>10</h2>
+                      <span>Awards gained</span></div>
+                    </li>
+                  </div>
+                  <div class="col-sm">
+                    <li><div><h2>10</h2>
+                      <span>Awards gained</span></div>
+                    </li>
+              </div>
             </div>
           </div>
         </div>
@@ -76,8 +78,8 @@ export const About = () => {
             <div className="col-md-6" id='section-col1-image'>
               <img src="./image/img6.jpg" alt="no" />
             </div>
-            <div className="col-md-6" id='section-col2-paragrap'>
-              <h4 className='d-flex'>Rohit Chaudhary
+            <div className="col-md-6 section-3-p">
+              <h4>Rohit Chaudhary
                 <h6 className='m-1'>(Founder & Principal Designer)</h6>
               </h4>
               <p> Rohit Chaudhary has gained a reputation as a perfectionist for his

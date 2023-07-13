@@ -6,13 +6,13 @@ export const Portfolio = () => {
   return (
     <div>
       {/* Hear is  section-1*/}
-      <div className="container-fluid mt-5 mb-5 ">
+      <div className="container-fluid">
         <div className="row section-1  ">
 
-          <div className="col">
-            <h1>PORTFOLIO.</h1>
-            <div className="col">
-            <img src="./image/img11.jpg" alt="no"  />
+          <div className="col-12">
+          <h2>PORTFOLIO.</h2>  
+            <div className="col-12">
+            <img className='img-fluid' src="./image/img11.jpg" alt="no"  />
             </div>
           </div>
         </div>

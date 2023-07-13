@@ -14,7 +14,6 @@
 
 .section-1 p {
     text-align: center;
-    width: 70%;
     margin-top: 150px;
     margin-bottom: 100px;
 }
@@ -42,9 +41,9 @@
 }
 
 .section-2-col {
-    margin-top: 30px;
     color: black;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .section-2 {

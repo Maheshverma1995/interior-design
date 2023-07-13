@@ -114,3 +114,11 @@ li {
 
 
 /*  */
+.footer-row
+{
+    text-align: center;
+    
+}
+.footer-row h5{
+    margin-top: 20px;
+}

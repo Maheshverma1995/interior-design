@@ -5,12 +5,12 @@ export const Blog = () => {
   return (
     <div>
       {/* Hear is  section-1*/}
-      <div className="container-fluid m-5 ">
+      <div className="container-fluid ">
         <div className="row section-1 ">
-          <div className="col">
-            <h1>BLOG.</h1>
-            <div className="col">
-            <img src="./image/img10.jpg" alt="no" />
+          <div className="col-md-4 col-lg-6 col-sm-12">
+            <h2>BLOG.</h2>
+            <div className="col-md-4 col-lg-6 col-sm-12">
+            <img className='img-fluid'  src="./image/img10.jpg" alt="no" />
             </div>
           </div>
         </div>

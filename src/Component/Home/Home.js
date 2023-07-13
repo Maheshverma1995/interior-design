@@ -10,11 +10,12 @@ export const Home = () => {
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-md-6" id="video1">
+            <div className="col-12" id="video1">
               <video
                 id="video2"
                 controls
                 autoPlay
+                loop 
                 muted
                 src="image/video.mp4.mp4"
               ></video>
@@ -25,7 +26,7 @@ export const Home = () => {
 
       {/* Hear is  section2 */}
       <section>
-        <div className="container p-3">
+        <div className="container ">
           <div className="row">
             <div className="col-md-6" id="section-col1-image">
               <img src="./image/img8.jpg" alt="no" />
@@ -110,7 +111,7 @@ export const Home = () => {
 
       {/* hear section4 start  */}
       <section>
-        <div className="container p-3">
+        <div className="container ">
           <div className="row">
             <div className="col-md-6" id="section-col2-paragrap">
               <h4>We design your space</h4>

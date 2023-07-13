@@ -6,12 +6,12 @@ export const Services = () => {
     <div>
       {/* Hear is  section-1*/}
       <section>
-        <div className="container p-3">
-          <div className="row section-1 mt-5 mb-5">
-            <div className="col">
-              <h1>SERVICES</h1>
-              <div className="col">
-                <img src="./image/53.webp" alt="no" />
+        <div className="container ">
+          <div className="row section-1">
+            <div className="col-12">
+              <h2>SERVICES</h2>
+              <div className="col-12">
+                <img  className='img-fluid' src="./image/53.webp" alt="no" />
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@ export const Services = () => {
 
             <div className="col-md-3" id="section3-row-col1">
               <div>
-                <img src="./image/Interior-Design.webp" alt="" />
+                <img className='img-fluid'  src="./image/Interior-Design.webp" alt="" />
               </div>
               <div>
                 <h4>Meet Designer</h4>
@@ -37,7 +37,7 @@ export const Services = () => {
             </div>
             <div className="col-md-3 " id="section3-row-col2">
               <div>
-                <img src="./image/interior2nd-1.webp" alt="" />
+                <img className='img-fluid'  src="./image/interior2nd-1.webp" alt="" />
               </div>
               <div>
                 <h4>Discuss Ideas</h4>
@@ -49,7 +49,7 @@ export const Services = () => {
             </div>
             <div className="col-md-3 " id="section3-row-col3">
               <div>
-                <img src="./image/3rd-1.webp" alt="" />
+                <img className='img-fluid'  src="./image/3rd-1.webp" alt="" />
               </div>
               <div>
                 <h4>Get free quote</h4>
@@ -61,7 +61,7 @@ export const Services = () => {
             </div>
             <div className="col-md-3 " id="section3-row-col4">
               <div>
-                <img src="./image/interior-1st.webp" alt="" />
+                <img className='img-fluid'  src="./image/interior-1st.webp" alt="" />
               </div>
               <div>
                 <h4>Book Us!</h4>
@@ -82,8 +82,8 @@ export const Services = () => {
             <h1>How we work</h1>
             <div className="row m-3">
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/23.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/23.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -94,8 +94,8 @@ export const Services = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/24.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/24.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -106,8 +106,8 @@ export const Services = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/25.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/25.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -120,8 +120,8 @@ export const Services = () => {
             </div>
             <div className="row m-3">
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/26.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/26.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -132,8 +132,8 @@ export const Services = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/27.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/27.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -144,8 +144,8 @@ export const Services = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card">
-                  <img src="./image/28.webp" class="card-img-top" alt="..." />
+                <div class="card m-3">
+                  <img className='img-fluid'  src="./image/28.webp" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Meet Designer</h5>
                     <p class="card-text">
@@ -167,21 +167,21 @@ export const Services = () => {
             {/* <Chart/> */}
             <div className="col-md-6">
               <h4>Stage 1</h4>
-              <img src="./image/Asset-1@3x-3-900x771.webp" alt="img" style={{width:'80%'}}/>
+              <img className='img-fluid'  src="./image/Asset-1@3x-3-900x771.webp" alt="img" style={{width:'80%'}}/>
             </div>
             <div className="col-md-6">
               <h4>Stage 2</h4>
-              <img src="./image/Asset-2@3x-900x747.webp" alt="img" style={{width:'80%'}} />
+              <img className='img-fluid'  src="./image/Asset-2@3x-900x747.webp" alt="img" style={{width:'80%'}} />
             </div>
           </div>
           <div className="row section-4">
             <div className="col-md-6">
               <h4>Stage 3</h4>
-              <img src="./image/Asset-3@3x-900x747.webp" alt="img" style={{width:'80%'}}/>
+              <img className='img-fluid'  src="./image/Asset-3@3x-900x747.webp" alt="img" style={{width:'80%'}}/>
             </div>
             <div className="col-md-6">
               <h4>Stage 4</h4>
-              <img src="./image/Asset-4@3x-900x720.webp" alt="img" style={{width:'80%'}} />
+              <img className='img-fluid'  src="./image/Asset-4@3x-900x720.webp" alt="img" style={{width:'80%'}} />
             </div>
           </div>
         </div>
